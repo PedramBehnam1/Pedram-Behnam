@@ -9,7 +9,7 @@
 
  <body>
    <div>
-				<h1>Calculator</h1>
+	<h1>Calculator</h1>
  <?php
 		
    include ('objects/Calculator.php');
