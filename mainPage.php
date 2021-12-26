@@ -23,7 +23,6 @@
 		if(isset($_GET['submit'])){
 				$result = $_GET['Expression'];
 				$result =	str_replace(' ', '', $result);
-    
 				if(preg_match('~[\^\+\-\/\*]$~',$result)){
 					echo "please enter Mathmatical Expression";
 				} else if(preg_match('~^[0-9()\+\-*\/]+$~', $result)){
